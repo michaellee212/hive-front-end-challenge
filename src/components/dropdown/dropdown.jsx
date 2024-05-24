@@ -42,8 +42,6 @@ export function Dropdown({
   const [activeItem, setActiveItem] = useState(selectedValue);
   const [isOpen, setIsOpen] = useState(false);
 
-  console.log("selectedItems ", selectedItems);
-
   function onClickMenuItem(item, indx, e) {
     e.stopPropagation();
     if (isMulti) {

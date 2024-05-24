@@ -48,7 +48,7 @@ const array2 = [
 
 function App() {
   return (
-    <div style={{ backgroundColor: "red", width: "400px" }}>
+    <div style={{ width: "400px" }}>
       <div style={{ margin: "10px" }}>
         <Dropdown selectedValue={undefined} options={array2} />
       </div>
