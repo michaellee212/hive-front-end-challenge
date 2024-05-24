@@ -32,7 +32,7 @@ Please note, we value an elegant component architecture over styling.
 - The code should be readable and a fellow developer should be able to dive right into
   your code.
 
-### How to run
+## How to run
 
 In the project directory, you can run:
 
