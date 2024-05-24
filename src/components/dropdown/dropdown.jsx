@@ -94,7 +94,6 @@ export function Dropdown({
         className="dropdown-select"
         onClick={(e) => {
           setIsOpen((prev) => !prev);
-          console.log("opening");
         }}
       >
         {isMulti ? (
@@ -109,9 +108,9 @@ export function Dropdown({
           {!isValueEmpty() && (
             <button onClick={(e) => onClearSelected(e)}>X</button>
           )}
-          <div className="divider"></div>
+          <div className="divider" />
           <div className="carat-arrow">
-            {isOpen ? <span>˅</span> : <span>˄</span>}
+            {isOpen ? <span>˄</span> : <span>˅</span>}
           </div>
         </div>
       </div>

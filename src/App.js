@@ -41,7 +41,7 @@ const array2 = [
     value: "Item 1",
   },
   { label: "Item 2", value: "Item 2" },
-  { label: "longg nameeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee", value: "Item 3" },
+  { label: "longg nameeeeeeeeeeeeeeeeee", value: "Item 3" },
   { label: "Item 4", value: "Item 4" },
   { label: "Item 5", value: "Item 5" },
 ];
