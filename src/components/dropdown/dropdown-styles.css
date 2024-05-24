@@ -43,11 +43,13 @@
   }
   
   .dropdown .dropdown-menu .dropdown-item:hover {
-    background-color: rgb(213, 213, 213);
+    background-color: rgb(134, 196, 247);
+    color: white;
   }
   
   .dropdown .dropdown-menu .active {
-    background-color: rgb(170, 168, 168);
+    background-color: rgb(75, 158, 226);
+    color: white;
   }
 
   .multi-item {

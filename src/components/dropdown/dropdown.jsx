@@ -1,11 +1,11 @@
 import React, { Fragment, useState } from "react";
 import "./dropdown-styles.css";
 
-function MultiItemLabel({ value = [], onClickMenuItem }) {
+function MultiItemLabel({ value = [], onClickMenuItem, placeholder }) {
   return (
     <div className="multi-item">
       {value.length === 0 ? (
-        <span>Select ...</span>
+        <span>{placeholder}</span>
       ) : (
         <Fragment>
           {value.map((item, index) => {
@@ -37,6 +37,7 @@ export function Dropdown({
   selectedValue = undefined,
   options = [],
   isMulti = false,
+  placeholder = "Select ...",
 }) {
   const [selectedItems, setSelectedItems] = useState(selectedValue);
   const [activeItem, setActiveItem] = useState(selectedValue);
@@ -100,9 +101,10 @@ export function Dropdown({
           <MultiItemLabel
             value={selectedItems}
             onClickMenuItem={onClickMenuItem}
+            placeholder={placeholder}
           />
         ) : (
-          selectedItems?.label || <span>Select ...</span>
+          selectedItems?.label || <span>{placeholder}</span>
         )}
         <div className="dropdown-select-options">
           {!isValueEmpty() && (
