@@ -57,7 +57,7 @@ src (Contains all user interface files, utils, and components)
 
 function Dropdown({id, selectedValue, options, isMulti})
 
-id: string;
-selectedValue: {label: string; value: string | number} | Array<{label: string; value: string | number}> | undefined
-options: Array<{label: string; value: string | number}>
-isMulti: boolean
+id: string;\
+selectedValue: {label: string; value: string | number} | Array<{label: string; value: string | number}> | undefined\
+options: Array<{label: string; value: string | number}>\
+isMulti: boolean\
