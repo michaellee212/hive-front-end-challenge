@@ -36,7 +36,7 @@ Please note, we value an elegant component architecture over styling.
 
 In the project directory, you can run:
 
-## `npm start`
+### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -52,3 +52,12 @@ src (Contains all user interface files, utils, and components)
   - dropdown (Dropdown source file and styles)
 - utils
   -utils.js (contains any large utility functions)
+
+### Dropdown Component Properties
+
+function Dropdown({id, selectedValue, options, isMulti})
+
+id: string;
+selectedValue: {label: string; value: string | number} | Array<{label: string; value: string | number}> | undefined
+options: Array<{label: string; value: string | number}>
+isMulti: boolean

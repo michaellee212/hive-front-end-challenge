@@ -53,7 +53,7 @@ function App() {
         <Dropdown selectedValue={undefined} options={array2} />
       </div>
       <div style={{ margin: "10px" }}>
-        <Dropdown selectedValue={undefined} options={array} isMulti />
+        <Dropdown selectedValue={[]} options={array} isMulti />
       </div>
     </div>
   );
