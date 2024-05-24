@@ -50,8 +50,6 @@ src (Contains all user interface files, utils, and components)
 - App.js (Source file displaying the dropdownw)
 - components
   - dropdown (Dropdown source file and styles)
-- utils
-  -utils.js (contains any large utility functions)
 
 ### Dropdown Component Properties
 
