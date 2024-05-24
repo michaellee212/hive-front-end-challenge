@@ -1,0 +1,82 @@
+.dropdown {
+    min-width: 100px;
+    position: relative;
+    width: 100%;
+  }
+  
+  
+  .dropdown .dropdown-select {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    color: black;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    border: 1px solid black;
+    justify-content: space-between;
+    border-radius: 5px;
+    min-height: 1.5rem;
+  }
+  
+  
+  .dropdown .dropdown-menu {
+    cursor: pointer;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 100%;
+    margin-top: 0.5rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    z-index: 10;
+    overflow-y: auto;
+    max-height: 15rem;
+  }
+
+  .dropdown .dropdown-select .dropdown-select-options {
+    display: flex;
+    gap: 10px;
+    margin-left: 1rem;
+  }
+  
+  .dropdown .dropdown-menu .dropdown-item {
+    padding: 10px;
+  }
+  
+  .dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: rgb(198, 196, 196);
+  }
+  
+  .dropdown .dropdown-menu .active {
+    background-color: rgb(170, 168, 168);
+  }
+
+  .multi-item {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .multi-item-delete-btn {
+    font-weight: bold;
+  }
+
+  .multi-item .multi-item-delete-btn:hover {
+    color: rgb(225, 39, 39);
+  }
+  
+  .multi-item-label {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .divider {
+    background-color: #777;
+    align-self: stretch;
+    width: 1px;
+  }
+  
